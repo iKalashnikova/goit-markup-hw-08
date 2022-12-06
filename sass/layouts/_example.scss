@@ -1,0 +1,32 @@
+.example {
+    padding-bottom: 94px;
+}
+
+.example__list {
+    display: flex;
+    gap: 30px;
+}
+
+.example__item {
+    position: relative;
+}
+
+.example__text {
+    padding-bottom: 27px;
+    padding-top: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-background);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
