@@ -2,16 +2,20 @@
     background-color: var(--footer-background);
     padding-top: 60px;
     padding-bottom: 60px;
+
 }
 
 .footer-section {
-    display: flex;
+    // display: flex;
     align-items: baseline;
     justify-content: space-between;
-}
+ }
 
 .address-section {
-    margin-right: 70px;
+    // margin-right: 70px;
+    margin-bottom: 60px;
+
+
 }
 
 .footer-logo {
@@ -25,6 +29,8 @@
     font-weight: 700px;
     font-size: 26px;
     line-height: 1.2;
+
+    
 }
 
 .footer-list {
@@ -47,6 +53,12 @@
     font-size: 14px;
 }
 
+.invite-section{
+    margin-bottom: 60px;
+    margin-left: auto;
+        margin-right: auto;
+}
+
 .invite-title {
     font-weight: 700px;
     font-size: 14px;
@@ -55,6 +67,7 @@
     text-transform: uppercase;
 
     color: var(--primary-background);
+    
 }
 
 .invite-list {
