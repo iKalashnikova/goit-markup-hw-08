@@ -181,27 +181,35 @@
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="list example__list">
             <li class="example__item">
+              <picture>
+                <source srcset="./images/htmls.jpg 1x, ./images/htmls@2x.jpg 2x" media="(min-width: 1200px)"/>
               <img
-                src="./images/box1.jpg"
+                src="./images/htmls.jpg"
                 alt="верстка та програмування"
                 width="370"
-              />
+              /></picture>
               <p class="example__text">Десктопні додатки</p>
             </li>
             <li class="example__item">
+              <picture>
+                <source srcset="./images/mobapps.jpg 1x, ./images/mobapps@2x.jpg 2x" media="(min-width: 1200px)" />
               <img
-                src="./images/box2.jpg"
+                src="./images/mobapps.jpg"
                 alt="розробка мобільних додатків"
                 width="370"
               />
+              </picture>
               <p class="example__text">Мобільні додатки</p>
             </li>
             <li class="example__item">
+              <picture>
+                <source srcset="./images/designs.jpg 1x, ./images/designs@2x.jpg 2x" media="(min-width: 1200px)" />
               <img
-                src="./images/box3.jpg"
+                src="./images/designs.jpg"
                 alt="графічний та веб дизайн"
                 width="370"
               />
+              </picture>
               <p class="example__text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -213,11 +221,17 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="list comand__list">
             <li class="comand__item">
+              <picture>
+                <source srcset="./images/dem-desk.jpg 1x, ./images/dem@2x-desk.jpg 2x" media="(min-width: 1200px)"/>
+                <source srcset="./images/dem-tab.jpg 1x, ./images/dem-tab@2x.jpg 2x" media="(min-width: 768px)"/>
+                <source srcset="./images/dem.jpg 1x, /images/dem@2x.jpg 2x" media="(min-width: 480px)"/>
+              
               <img
-                src="./images/img-min.jpg"
+                src="./images/dem.jpg"
                 alt="Бородатий брюнет в окулярах в бордовій сорочці"
-                width="270"
+                width="450"
               />
+              </picture>
               <div class="comand__container">
                 <h3 class="comand__title">Ігор Дем'яненко</h3>
                 <p class="comand__text">Product Designer</p>
@@ -255,11 +269,16 @@
             </li>
 
             <li class="comand__item">
+              <picture>
+              <source srcset="./images/rep-desk.jpg 1x, ./images/rep@2x-desk.jpg 2x" media="(min-width: 1200px)" />
+              <source srcset="./images/rep-tab.jpg 1x, ./images/rep-tab@2x.jpg 2x" media="(min-width: 768px)" />
+              <source srcset="./images/rep.jpg 1x, /images/rep@2x.jpg 2x" media="(min-width: 480px)" />
               <img
-                src="./images/img-3-min.jpg"
+                src="./images/rep.jpg"
                 alt="Блондинка в окулярах в чорномуу жакеті"
-                width="270"
+                width="450"
               />
+              </picture>
               <div class="comand__container">
                 <h3 class="comand__title">Ольга Рєпіна</h3>
                 <p class="comand__text">Frontend Developer</p>
@@ -297,11 +316,17 @@
             </li>
 
             <li class="comand__item">
+              <picture>
+                <source srcset="./images/tar-desk.jpg 1x, ./images/tar@2x-desk.jpg 2x" media="(min-width: 1200px)" />
+                <source srcset="./images/tar-tab.jpg 1x, ./images/tar-tab@2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./images/tar.jpg 1x, /images/tar@2x.jpg 2x" media="(min-width: 480px)" />
+              
               <img
-                src="./images/img-4-min.jpg"
+                src="./images/tar.jpg"
                 alt="Чоловік в голубій сорочці"
-                width="270"
+                width="450"
               />
+              </picture>
               <div class="comand__container">
                 <h3 class="comand__title">Микола Тарасов</h3>
                 <p class="comand__text">Marketing</p>
@@ -339,11 +364,16 @@
             </li>
 
             <li class="comand__item">
+              <picture>
+                <source srcset="./images/erm-desk.jpg 1x, ./images/erm@2x-desk.jpg 2x" media="(min-width: 1200px)" />
+                <source srcset="./images/erm-tab.jpg 1x, ./images/erm-tab@2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./images/erm.jpg 1x, /images/erm@2x.jpg 2x" media="(min-width: 480px)" />
+              
               <img
                 src="./images/img-5-min.jpg"
                 alt="Брюнет в окулярах в чорній футболці"
-                width="270"
-              />
+                width="450"
+              /></picture>
               <div class="comand__container">
                 <h3 class="comand__title">Михайло Єрмаков</h3>
                 <p class="comand__text">UI Designer</p>
@@ -513,7 +543,7 @@
 
     </footer> 
 
-    <div class="backdrop is-hidden" data-modal>
+     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="close-icon" width="18" height="18">

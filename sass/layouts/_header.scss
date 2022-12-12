@@ -2,6 +2,8 @@
     padding-top: 24px;
     padding-bottom: 25px;
     border: 1px solid #ececec;
+
+
 }
 
 .header-list {
@@ -23,10 +25,7 @@ display: none;
     font-size: 16px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-// display: flex;
-//     align-items: baseline;
-//     justify-content: space-between;
+     justify-content: space-between;
     }
 }
 
@@ -39,6 +38,7 @@ display: none;
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .site-nav {
@@ -82,10 +82,10 @@ display: none;
     display: none;
     @media screen and (min-width: 768px) {
     display: block;
-    // flex-direction: column;
-    // gap: 10px;
-    margin-left: auto;
-    margin-right: auto;}
+    
+    // margin-left: auto;
+   }
+    
 
     @media screen and (min-width: 1200px) {
         display: flex;
@@ -97,21 +97,17 @@ display: none;
 
 .contact-item{
     margin-bottom: 10px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+}
 }
 
 .header-block {
     @media screen and (min-width: 768px) {
         // outline: 2px solid red;
         margin-left: auto;
-        margin-right: auto;
-        justify-content: space-between;
-        overflow: auto;
+
     }
-     @media screen and (min-width: 1200px) {
-    //     display: flex;
-    //  align-items: center;
-    //  justify-items: baseline;
-         }
 }
 
 .menu-open{
@@ -133,6 +129,7 @@ display: none;
     height: 100vh;
     background-color: var(--primary-background);
     top: 0;
+    z-index: 1;
     padding-top: 48px;
     padding-bottom: 48px;
     > .container{

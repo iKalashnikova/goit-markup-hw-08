@@ -4,15 +4,11 @@
   padding-top: 118px;
   padding-bottom: 118px;
 
-    @media screen and (min-width: 1200px) {
-      max-width: 1600px;
-      padding-top: 225px;
-      padding-bottom: 175px;
-      }
-    
-      ;
-
-
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    padding-top: 225px;
+    padding-bottom: 175px;
+  }
 }
 
 .overlay {
@@ -20,12 +16,43 @@
   width: 100%;
   // height: 400px;
   // max-width: 480px;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/hero-photo-2.jpg);
+  background-image: var(--bg-gradient), url(../../images/Hero_mob.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: var(--bg-gradient), url(../../images/Hero_mob@2x.jpg);
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: var(--bg-gradient), url(../../images/Hero_tab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: var(--bg-gradient), url(../../images/Hero_tab@2x-1.jpg);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-image: var(--bg-gradient), url(../../images/hero_desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {  
+      background-image: var(--bg-gradient),
+        url(../../images/hero_desktop@2x.jpg);
+    }
+  }
 }
 
 .hero__title {
@@ -43,11 +70,10 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  
-    @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     font-size: 44px;
     width: 696px;
-    };
+  }
 }
 
 .hero__button {

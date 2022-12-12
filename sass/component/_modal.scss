@@ -15,7 +15,8 @@
     position: absolute;
     padding: 40px;
 
-    width: 542px;
+    width: 100%;
+    // width: 542px;
     /* height: 581px; */
     background-color: #ffffff;
     border-radius: 4px;
@@ -28,6 +29,15 @@
     .backdrop.is-hidden &{
         transform: translate(-50%, -50%) scale(0);
         }
+
+     @media screen and (min-width:768px) {
+     width: 450px;
+         }
+
+    @media screen and (min-width:1200px) {
+        width: 528px;
+     
+    }
 }
 
 .modal-close {

@@ -20,9 +20,15 @@
 
 .button-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 50px;
+
+  @media screen and (min-width:768px) {
+    justify-content: center;
+    
+  }
 }
 
 .portfolio-button {
@@ -55,10 +61,20 @@
 }
 
 .portfolio-example {
+
+  // outline: 2px solid red;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   column-gap: 30px;
   row-gap: 30px;
+
+  @media screen and (min-width:768px) {
+    justify-content: left;
+      align-items: center;
+    
+  }
 }
 
 .portfolio-link {
@@ -73,7 +89,12 @@
 }
 
 .portfolio-item {
+  @media screen and (min-width:768px) {
+    width: calc((100% - 30px) / 2);
+  }
+@media screen and (min-width:1200px) {
   width: calc((100% - 60px) / 3);
+}
 }
 
 .portfolio-border {
