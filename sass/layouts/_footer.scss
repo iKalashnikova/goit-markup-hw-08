@@ -27,11 +27,15 @@
 }
 
 .address-section {
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
   // margin-right: 165px;
   align-items: center;
   justify-content:baseline ;
-
+  
+@media screen and (min-width:768px) {
+  margin: auto;
+  
+}
 
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
@@ -89,7 +93,10 @@
 .invite-section {
   margin-bottom: 60px;
   @media screen and (min-width: 768px) {
-  
+    margin:0px auto;
+  @media screen and (min-width: 1200px){
+margin: 0;
+  }
   }
 }
 
@@ -144,9 +151,12 @@
 .subscribe {
   //   display: flex;
   //   flex-direction: column;
-
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+  }
   @media screen and (min-width: 1200px) {
     margin-left: 93px;
+    margin-top: 0px;
   }
 }
 

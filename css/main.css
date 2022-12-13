@@ -848,13 +848,17 @@
 }
 
 .address-section {
-  margin-bottom: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: baseline;
       -ms-flex-pack: baseline;
           justify-content: baseline;
+}
+@media screen and (min-width: 768px) {
+  .address-section {
+    margin: auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .address-section {
@@ -924,6 +928,17 @@
 .invite-section {
   margin-bottom: 60px;
 }
+@media screen and (min-width: 768px) {
+  .invite-section {
+    margin: 0px auto;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .invite-section {
+    margin: 0;
+  }
+}
+
 .invite-title {
   font-weight: 700px;
   font-size: 14px;
@@ -989,9 +1004,15 @@
   padding: 12px;
 }
 
+@media screen and (min-width: 768px) {
+  .subscribe {
+    margin-top: 60px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .subscribe {
     margin-left: 93px;
+    margin-top: 0px;
   }
 }
 
