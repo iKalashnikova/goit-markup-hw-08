@@ -2,6 +2,7 @@
   background-color: var(--footer-background);
   padding-top: 60px;
   padding-bottom: 60px;
+  align-items: baseline;
 }
 
 .footer-section {
@@ -27,7 +28,7 @@
 }
 
 .address-section {
-  // margin-bottom: 60px;
+  margin-bottom: 60px;
   // margin-right: 165px;
   align-items: center;
   justify-content:baseline ;
@@ -93,10 +94,13 @@
 .invite-section {
   margin-bottom: 60px;
   @media screen and (min-width: 768px) {
-    margin:0px auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+  }
+   
   @media screen and (min-width: 1200px){
 margin: 0;
-  }
   }
 }
 
