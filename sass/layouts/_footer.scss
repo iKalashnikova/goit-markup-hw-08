@@ -32,12 +32,11 @@
   margin-bottom: 60px;
   // margin-right: 165px;
   align-items: center;
-  justify-content:baseline ;
-  
-@media screen and (min-width:768px) {
-  margin: auto;
-  
-}
+  justify-content: baseline;
+
+  @media screen and (min-width: 768px) {
+    margin: auto;
+  }
 
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
@@ -82,14 +81,13 @@
   font-family: inherit;
   font-size: 14px;
 
-    text-align: center;
-      justify-content: center;
+  text-align: center;
+  justify-content: center;
 
-      @media screen and (min-width:768px) {
-        text-align: left;
-        justify-content: left;
-        
-      }
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    justify-content: left;
+  }
 }
 
 .invite-section {
@@ -99,9 +97,9 @@
     margin-left: auto;
     margin-bottom: 0;
   }
-   
-  @media screen and (min-width: 1200px){
-margin: 0;
+
+  @media screen and (min-width: 1200px) {
+    margin: 0;
   }
 }
 
@@ -203,9 +201,9 @@ margin: 0;
   }
   margin-bottom: 20px;
 
-    @media screen and (min-width: 768px) {
-      width: 450px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
 
   @media screen and (min-width: 1200px) {
     width: 358px;
